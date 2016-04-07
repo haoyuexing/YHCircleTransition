@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A6BE2C1CB6C4A7007C2073 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE2B1CB6C4A7007C2073 /* main.m */; };
+		46A6BE2F1CB6C4A7007C2073 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE2E1CB6C4A7007C2073 /* AppDelegate.m */; };
+		46A6BE351CB6C4A7007C2073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A6BE331CB6C4A7007C2073 /* Main.storyboard */; };
+		46A6BE371CB6C4A7007C2073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A6BE361CB6C4A7007C2073 /* Assets.xcassets */; };
+		46A6BE3A1CB6C4A7007C2073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A6BE381CB6C4A7007C2073 /* LaunchScreen.storyboard */; };
+		46A6BE461CB6C5B1007C2073 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE451CB6C5B1007C2073 /* ModalViewController.m */; };
+		46A6BE531CB6E86D007C2073 /* LazyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE521CB6E86D007C2073 /* LazyViewController.m */; };
+		46A6BE591CB6E897007C2073 /* YHCircleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE561CB6E897007C2073 /* YHCircleTransition.m */; };
+		46A6BE5A1CB6E897007C2073 /* YHCircleTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE581CB6E897007C2073 /* YHCircleTransitionDelegate.m */; };
+		46A6BE5D1CB6E8DE007C2073 /* CAGradientLayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE5C1CB6E8DE007C2073 /* CAGradientLayer+Additions.m */; };
+		46A6BE601CB6E966007C2073 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A6BE5F1CB6E966007C2073 /* CustomViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46A6BE271CB6C4A7007C2073 /* YHCircleTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHCircleTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A6BE2B1CB6C4A7007C2073 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46A6BE2D1CB6C4A7007C2073 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46A6BE2E1CB6C4A7007C2073 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46A6BE341CB6C4A7007C2073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46A6BE361CB6C4A7007C2073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A6BE391CB6C4A7007C2073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46A6BE3B1CB6C4A7007C2073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A6BE441CB6C5B1007C2073 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		46A6BE451CB6C5B1007C2073 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		46A6BE511CB6E86D007C2073 /* LazyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LazyViewController.h; path = YHCircleTransitionDemo/LazyViewController.h; sourceTree = SOURCE_ROOT; };
+		46A6BE521CB6E86D007C2073 /* LazyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LazyViewController.m; path = YHCircleTransitionDemo/LazyViewController.m; sourceTree = SOURCE_ROOT; };
+		46A6BE551CB6E897007C2073 /* YHCircleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCircleTransition.h; sourceTree = "<group>"; };
+		46A6BE561CB6E897007C2073 /* YHCircleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCircleTransition.m; sourceTree = "<group>"; };
+		46A6BE571CB6E897007C2073 /* YHCircleTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCircleTransitionDelegate.h; sourceTree = "<group>"; };
+		46A6BE581CB6E897007C2073 /* YHCircleTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCircleTransitionDelegate.m; sourceTree = "<group>"; };
+		46A6BE5B1CB6E8DE007C2073 /* CAGradientLayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+Additions.h"; sourceTree = "<group>"; };
+		46A6BE5C1CB6E8DE007C2073 /* CAGradientLayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+Additions.m"; sourceTree = "<group>"; };
+		46A6BE5E1CB6E966007C2073 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		46A6BE5F1CB6E966007C2073 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A6BE241CB6C4A7007C2073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A6BE1E1CB6C4A7007C2073 = {
+			isa = PBXGroup;
+			children = (
+				46A6BE541CB6E897007C2073 /* YHCircleTransition */,
+				46A6BE291CB6C4A7007C2073 /* YHCircleTransitionDemo */,
+				46A6BE281CB6C4A7007C2073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A6BE281CB6C4A7007C2073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE271CB6C4A7007C2073 /* YHCircleTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A6BE291CB6C4A7007C2073 /* YHCircleTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE621CB6EBCA007C2073 /* Tools */,
+				46A6BE611CB6EBAF007C2073 /* DemoController */,
+				46A6BE2D1CB6C4A7007C2073 /* AppDelegate.h */,
+				46A6BE2E1CB6C4A7007C2073 /* AppDelegate.m */,
+				46A6BE331CB6C4A7007C2073 /* Main.storyboard */,
+				46A6BE361CB6C4A7007C2073 /* Assets.xcassets */,
+				46A6BE381CB6C4A7007C2073 /* LaunchScreen.storyboard */,
+				46A6BE3B1CB6C4A7007C2073 /* Info.plist */,
+				46A6BE2A1CB6C4A7007C2073 /* Supporting Files */,
+			);
+			path = YHCircleTransitionDemo;
+			sourceTree = "<group>";
+		};
+		46A6BE2A1CB6C4A7007C2073 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE2B1CB6C4A7007C2073 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46A6BE541CB6E897007C2073 /* YHCircleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE551CB6E897007C2073 /* YHCircleTransition.h */,
+				46A6BE561CB6E897007C2073 /* YHCircleTransition.m */,
+				46A6BE571CB6E897007C2073 /* YHCircleTransitionDelegate.h */,
+				46A6BE581CB6E897007C2073 /* YHCircleTransitionDelegate.m */,
+			);
+			path = YHCircleTransition;
+			sourceTree = SOURCE_ROOT;
+		};
+		46A6BE611CB6EBAF007C2073 /* DemoController */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE511CB6E86D007C2073 /* LazyViewController.h */,
+				46A6BE521CB6E86D007C2073 /* LazyViewController.m */,
+				46A6BE5E1CB6E966007C2073 /* CustomViewController.h */,
+				46A6BE5F1CB6E966007C2073 /* CustomViewController.m */,
+				46A6BE441CB6C5B1007C2073 /* ModalViewController.h */,
+				46A6BE451CB6C5B1007C2073 /* ModalViewController.m */,
+			);
+			name = DemoController;
+			sourceTree = "<group>";
+		};
+		46A6BE621CB6EBCA007C2073 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				46A6BE5B1CB6E8DE007C2073 /* CAGradientLayer+Additions.h */,
+				46A6BE5C1CB6E8DE007C2073 /* CAGradientLayer+Additions.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A6BE261CB6C4A7007C2073 /* YHCircleTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A6BE3E1CB6C4A7007C2073 /* Build configuration list for PBXNativeTarget "YHCircleTransitionDemo" */;
+			buildPhases = (
+				46A6BE231CB6C4A7007C2073 /* Sources */,
+				46A6BE241CB6C4A7007C2073 /* Frameworks */,
+				46A6BE251CB6C4A7007C2073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHCircleTransitionDemo;
+			productName = YHCircleTransitionDemo;
+			productReference = 46A6BE271CB6C4A7007C2073 /* YHCircleTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A6BE1F1CB6C4A7007C2073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YosonHao;
+				TargetAttributes = {
+					46A6BE261CB6C4A7007C2073 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 46A6BE221CB6C4A7007C2073 /* Build configuration list for PBXProject "YHCircleTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46A6BE1E1CB6C4A7007C2073;
+			productRefGroup = 46A6BE281CB6C4A7007C2073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A6BE261CB6C4A7007C2073 /* YHCircleTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A6BE251CB6C4A7007C2073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A6BE3A1CB6C4A7007C2073 /* LaunchScreen.storyboard in Resources */,
+				46A6BE371CB6C4A7007C2073 /* Assets.xcassets in Resources */,
+				46A6BE351CB6C4A7007C2073 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A6BE231CB6C4A7007C2073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A6BE461CB6C5B1007C2073 /* ModalViewController.m in Sources */,
+				46A6BE2F1CB6C4A7007C2073 /* AppDelegate.m in Sources */,
+				46A6BE5A1CB6E897007C2073 /* YHCircleTransitionDelegate.m in Sources */,
+				46A6BE601CB6E966007C2073 /* CustomViewController.m in Sources */,
+				46A6BE591CB6E897007C2073 /* YHCircleTransition.m in Sources */,
+				46A6BE2C1CB6C4A7007C2073 /* main.m in Sources */,
+				46A6BE531CB6E86D007C2073 /* LazyViewController.m in Sources */,
+				46A6BE5D1CB6E8DE007C2073 /* CAGradientLayer+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46A6BE331CB6C4A7007C2073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A6BE341CB6C4A7007C2073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46A6BE381CB6C4A7007C2073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A6BE391CB6C4A7007C2073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46A6BE3C1CB6C4A7007C2073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46A6BE3D1CB6C4A7007C2073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A6BE3F1CB6C4A7007C2073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHCircleTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hao.YHCircleTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46A6BE401CB6C4A7007C2073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHCircleTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hao.YHCircleTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A6BE221CB6C4A7007C2073 /* Build configuration list for PBXProject "YHCircleTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A6BE3C1CB6C4A7007C2073 /* Debug */,
+				46A6BE3D1CB6C4A7007C2073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A6BE3E1CB6C4A7007C2073 /* Build configuration list for PBXNativeTarget "YHCircleTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A6BE3F1CB6C4A7007C2073 /* Debug */,
+				46A6BE401CB6C4A7007C2073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A6BE1F1CB6C4A7007C2073 /* Project object */;
+}
