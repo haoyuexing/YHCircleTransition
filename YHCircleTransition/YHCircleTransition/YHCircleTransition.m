@@ -38,7 +38,6 @@
 
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.height;
-
     CGFloat side1 = MAX(self.transitionCenter.x, screenWidth - self.transitionCenter.x);
     CGFloat side2 = MAX(self.transitionCenter.y, screenHeight - self.transitionCenter.y);
     CGFloat radius = sqrt(side1 * side1 + side2 * side2);
@@ -81,7 +80,6 @@
 {
     if (flag) {
         [self.transitionContext completeTransition:YES];
-        NSLog(@"123");
     }
 }
 
