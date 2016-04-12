@@ -38,17 +38,19 @@
 
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     CGFloat screenWidth = [UIScreen mainScreen].bounds.size.height;
-    CGFloat radius = sqrt(screenHeight * screenHeight + screenWidth * screenWidth);
+
+    CGFloat side1 = MAX(self.transitionCenter.x, screenWidth - self.transitionCenter.x);
+    CGFloat side2 = MAX(self.transitionCenter.y, screenHeight - self.transitionCenter.y);
+    CGFloat radius = sqrt(side1 * side1 + side2 * side2);
 
     CGRect circleMaskOvalInitial = CGRectMake(self.transitionCenter.x, self.transitionCenter.y, 0, 0);
-    UIBezierPath *circleMaskPathInitial
-        = [UIBezierPath bezierPathWithOvalInRect:circleMaskOvalInitial];
+    UIBezierPath *circleMaskPathInitial = [UIBezierPath bezierPathWithOvalInRect:circleMaskOvalInitial];
     UIBezierPath *circleMaskPathFinal = [UIBezierPath bezierPathWithOvalInRect:CGRectInset(circleMaskOvalInitial, -radius, -radius)];
 
     CABasicAnimation *maskLayerAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
     maskLayerAnimation.duration = self.transitionDuration;
     maskLayerAnimation.delegate = self;
-    maskLayerAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+    maskLayerAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
     maskLayerAnimation.fillMode = kCAFillModeForwards;
     maskLayerAnimation.removedOnCompletion = NO;
 
@@ -59,13 +61,11 @@
         maskLayerAnimation.fromValue = (__bridge id _Nullable)(circleMaskPathInitial.CGPath);
         maskLayerAnimation.toValue = (__bridge id _Nullable)(circleMaskPathFinal.CGPath);
         toView.layer.mask = maskLayer;
-
         break;
     case YHCircleTransitionModeDismissing:
         maskLayerAnimation.fromValue = (__bridge id _Nullable)(circleMaskPathFinal.CGPath);
         maskLayerAnimation.toValue = (__bridge id _Nullable)(circleMaskPathInitial.CGPath);
         fromView.layer.mask = maskLayer;
-
         [transitionContext.containerView bringSubviewToFront:fromView];
         break;
     default:
@@ -81,6 +81,7 @@
 {
     if (flag) {
         [self.transitionContext completeTransition:YES];
+        NSLog(@"123");
     }
 }
 
